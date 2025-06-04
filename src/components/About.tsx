@@ -10,7 +10,7 @@ export const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm a seasoned AI Engineer and System Architect with over 3 years of industry experience, 
+              I'm an AI Engineer and System Architect with over 3 years of industry experience, 
               specializing in delivering scalable, high-performance software and machine learning solutions.
             </p>
             
