@@ -11,49 +11,52 @@ export const Publications = () => {
       title: "DISTIL: Towards Streamlined Distillation for Student-Teacher Models",
       venue: "ICCV 2025",
       year: "2025",
-      status: "Accepted",
-      authors: "Sepehr Rezaee, et al.",
+      status: "Submitted",
+      authors: "Hossein Mirzaei, Zeinab Sadat Taghavi, Sepehr Rezaee, Masoud Hadi, Moein Madadi, Mackenzie W Mathis.",
       summary: "Novel approach to knowledge distillation for efficient neural network compression while maintaining performance."
     },
     {
       title: "LyAm: Comprehensive Framework for Lyapunov-based Adversarial Machine Learning",
       venue: "ICCV 2025", 
       year: "2025",
-      status: "Accepted",
-      authors: "Sepehr Rezaee, et al.",
+      status: "Submitted",
+      authors: "Elmira Mirzabeigi, Sepehr Rezaee, Kourosh Parand.",
       summary: "Theoretical framework combining Lyapunov stability theory with adversarial robustness in machine learning."
     },
     {
       title: "Contrastive Learning Framework for Enhanced Model Interpretability",
       venue: "ICCV 2025",
       year: "2025", 
-      status: "Accepted",
-      authors: "Sepehr Rezaee, et al.",
-      summary: "Novel contrastive learning approach to improve model interpretability and feature representation learning."
+      status: "Submitted",
+      authors: "Hossein Mirzaei, Mojtaba Nafez, Moein Madadi, Arad Maleki, Mahdi Hajialilue, Zeinab Sadat Taghavi, Sepehr Rezaee, et al.",
+      summary: "Novel contrastive learning approach to improve model interpretability and feature representation learning.",
+      link: "https://arxiv.org/pdf/2501.17289"
     },
     {
-      title: "Physics-Informed Neural Networks for Disease Progression Modeling",
+      title: "Physics-Informed Lane-Emden Solvers Using Lynx-Net: Implementing Radial Basis Functions in Kolmogorov Representation",
       venue: "Under Review",
       year: "2024",
       status: "Under Review",
-      authors: "Sepehr Rezaee, et al.",
+      authors: "Elmira Mirzabeigi, Maryam Babaei*, Amir Hossein Karami*, Sepehr Rezaee*, Rezvan Salehi, Kourosh Parand",
       summary: "Application of physics-informed neural networks to model complex disease progression patterns with enhanced accuracy."
     },
     {
       title: "Detection and Mitigation of Trojaned Models in Distributed Learning",
       venue: "NeurIPS 2024",
       year: "2024",
-      status: "Submitted",
-      authors: "Sepehr Rezaee, et al.",
-      summary: "Comprehensive approach to detect and mitigate trojaned models in federated and distributed learning environments."
+      status: "Accepted",
+      authors: "Hossein Mirzaei, Ali Ansari*, Bahar Dibaei Nia*, Mojtaba Nafez^ , Moein Madadi^ , Sepehr Rezaee^. et. al.",
+      summary: "Comprehensive approach to detect and mitigate trojaned models in federated and distributed learning environments.",
+      link: "https://proceedings.neurips.cc/paper_files/paper/2024/file/ef52fd1e24634cb8f7003ebbfb3644d9-Paper-Conference.pdf"
     },
     {
-      title: "AI-based Early Detection of Alzheimer's Disease using Multimodal Analysis",
+      title: "Comparison of Pre-Training and Classification Models for Early Detection of Alzheimer’s Disease Using Magnetic Resonance Imaging",
       venue: "I4C 2023",
       year: "2023",
       status: "Published",
-      authors: "Sepehr Rezaee, et al.",
-      summary: "Multimodal AI approach combining neuroimaging and cognitive assessments for early Alzheimer's detection."
+      authors: "AH Karami, S Rezaee, E Mirzabeigi, K Parand",
+      summary: "Multimodal AI approach combining neuroimaging and cognitive assessments for early Alzheimer's detection.",
+      link: "https://i4c.iust.ac.ir/UPL/Paper2023/accpapers/i4c2023-1056.pdf"
     },
     {
       title: "Advanced Clustering Algorithms for Large-Scale Data Analysis",
