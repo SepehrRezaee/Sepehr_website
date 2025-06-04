@@ -13,11 +13,13 @@ export const Hero = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Profile Image Placeholder */}
+          {/* Profile Image */}
           <div className="w-32 h-32 mx-auto mb-8 relative">
-            <div className="w-full h-full bg-gradient-to-br from-cyan-400 to-blue-600 rounded-full flex items-center justify-center text-4xl font-bold text-white animate-glow">
-              SR
-            </div>
+            <img 
+              src="/lovable-uploads/7959c024-5cb0-4ab6-9005-43d9805b4248.png"
+              alt="Sepehr Rezaee"
+              className="w-full h-full rounded-full object-cover border-4 border-cyan-400/30 animate-glow"
+            />
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
