@@ -8,7 +8,7 @@ export const Publications = () => {
 
   const publications = [
     {
-      title: "DISTIL: Towards Streamlined Distillation for Student-Teacher Models",
+      title: "DISTIL: Data-Free Inversion of Suspicious Trojan Inputs via Latent Diffusion",
       venue: "ICCV 2025",
       year: "2025",
       status: "Submitted",
@@ -16,7 +16,7 @@ export const Publications = () => {
       summary: "Novel approach to knowledge distillation for efficient neural network compression while maintaining performance."
     },
     {
-      title: "LyAm: Comprehensive Framework for Lyapunov-based Adversarial Machine Learning",
+      title: "LyAm: Robust Non-Convex Optimization for Stable Learning in Noisy and Anomalous Environments",
       venue: "ICCV 2025", 
       year: "2025",
       status: "Submitted",
@@ -24,7 +24,7 @@ export const Publications = () => {
       summary: "Theoretical framework combining Lyapunov stability theory with adversarial robustness in machine learning."
     },
     {
-      title: "Contrastive Learning Framework for Enhanced Model Interpretability",
+      title: "A Contrastive Teacher-Student Framework for Novelty Detection Under Style Shift",
       venue: "ICCV 2025",
       year: "2025", 
       status: "Submitted",
@@ -41,7 +41,7 @@ export const Publications = () => {
       summary: "Application of physics-informed neural networks to model complex disease progression patterns with enhanced accuracy."
     },
     {
-      title: "Detection and Mitigation of Trojaned Models in Distributed Learning",
+      title: "Scanning Trojaned Models Using Out-of-Distribution Samples",
       venue: "NeurIPS 2024",
       year: "2024",
       status: "Accepted",
@@ -59,7 +59,7 @@ export const Publications = () => {
       link: "https://i4c.iust.ac.ir/UPL/Paper2023/accpapers/i4c2023-1056.pdf"
     },
     {
-      title: "Advanced Clustering Algorithms for Large-Scale Data Analysis",
+      title: "Hierarchical Clustering Algorithms, Chapter of Unsupervised Algorithms: Clustering (with Implementation) Aarvan Publications",
       venue: "Book Chapter",
       year: "2022",
       status: "Published",
