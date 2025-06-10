@@ -6,7 +6,6 @@ export const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
           About Me
         </h2>
-        
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
