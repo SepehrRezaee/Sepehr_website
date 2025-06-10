@@ -4,38 +4,37 @@ import { Calendar, MapPin, TrendingUp } from "lucide-react";
 export const Experience = () => {
   const experiences = [
     {
-      title: "AI Engineer (Contract)",
+      title: "AI Engineer, Agentic Systems",
       company: "PropTy Global",
       period: "Aug 2024 – Present",
       location: "Remote",
       achievements: [
-        "Developed AI-driven chatbot & recommendation engine, increasing user engagement by 25%",
-        "Engineered FastAPI microservices with PostgreSQL (3TB+) and MongoDB, ensuring API response times <100ms",
-        "Deployed AWS SageMaker pipelines on spot instances, reducing costs by 20%",
-        "Containerized services with Docker & Kubernetes, cutting deployment time by 40%",
-        "Implemented monitoring (Prometheus, Grafana, ELK) for 99.9% uptime"
+        "Architected and deployed production-ready multi-agent LLM systems (LangChain, custom RAG), driving autonomous recommendation and business decision workflows (85%+ completion rate)",
+        "Developed robust agent-to-agent communication protocols and memory modules for context-aware, goal-driven agents",
+        "Integrated Docker and Kubernetes for scalable, low-latency deployments (sub-100ms API), and implemented advanced monitoring (Prometheus, Grafana)",
+        "Connected agent actions to live business KPIs, building feedback and evaluation loops for agent optimization",
+        "Collaborated on outcome tracking and continuous agent improvement pipelines"
       ]
     },
     {
-      title: "Chief AI Officer",
+      title: "Chief AI Officer & Multi-Agent Architect",
       company: "Novel Mind Scientist",
       period: "Oct 2022 – Present",
       location: "Tehran, Iran",
       achievements: [
-        "Spearheaded AI-agent development for Medical, Education, Oil & Petroleum sectors",
-        "Leveraged state-of-the-art tools (LLMs, multimodal architectures) for bespoke AI applications",
-        "Launched ADiagnosis, a multimodal AI agent for early diagnosis of mental disorders"
+        "Led the full-stack delivery of LLM-powered agents for SaaS, healthcare, and education, integrating vision, text, and knowledge graph data",
+        "Implemented multi-agent orchestration (LangChain, Celery) and business process automation pipelines",
+        "Provided technical leadership: code reviews, design standards, agent evaluation, documentation, and knowledge transfer"
       ]
     },
     {
-      title: "Project Manager",
+      title: "Project Manager, Agentic ML SaaS",
       company: "NovaVira",
       period: "Mar 2023 – Feb 2024",
       location: "Tehran, Iran",
       achievements: [
-        "Led a team delivering Django-based ML recommender (85% precision, 75% recall)",
-        "Streamlined Agile workflows and CI/CD, reducing cycles by 30%",
-        "Architected GCP data pipelines (50K+ records/day, 98% SLA compliance)"
+        "Delivered a Django-based agentic recommender platform (LangChain, GCP, Docker) with hybrid search and automated workflow",
+        "Oversaw Agile and CI/CD, ensuring reliability and fast iteration on agent architectures"
       ]
     },
     {

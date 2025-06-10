@@ -5,73 +5,65 @@ export const Skills = () => {
   const skillCategories = [
     {
       icon: Brain,
-      title: "Machine Learning & AI",
+      title: "AI Agent Orchestration",
       skills: [
-        "Recommender Systems",
-        "Natural Language Processing",
-        "LLMs (GPT, LLaMA, Falcon3, Qwen-2.5)",
-        "Retrieval-Augmented Generation",
-        "Computer Vision",
-        "Deep Learning"
-      ]
-    },
-    {
-      icon: Cloud,
-      title: "Cloud & DevOps",
-      skills: [
-        "AWS (SageMaker, EC2)",
-        "Google Cloud Platform",
-        "Microsoft Azure",
-        "Docker & Kubernetes",
-        "CI/CD Pipelines",
-        "Infrastructure as Code"
+        "Multi-Agent Systems (LangChain, LangGraph, LlamaIndex)",
+        "Retrieval-Augmented Generation (RAG)",
+        "Agent Communication & Memory",
+        "Prompt Engineering & SPAR (Sense, Plan, Act, Reflect)",
+        "Agent Routing, Escalation & Handoff"
       ]
     },
     {
       icon: Code,
-      title: "Software Engineering",
+      title: "Programming",
       skills: [
-        "Python",
-        "C# & .NET",
-        "FastAPI",
-        "Django REST Framework",
+        "Python (expert)",
+        "C++",
         "Java",
-        "C++"
+        "C#"
+      ]
+    },
+    {
+      icon: Cloud,
+      title: "Infrastructure & MLOps",
+      skills: [
+        "Kubernetes (expert)",
+        "Docker (expert)",
+        "AWS (SageMaker, EC2)",
+        "GCP, Azure",
+        "Airflow, Celery, MLflow",
+        "CI/CD, Monitoring (Prometheus, Grafana, ELK)"
       ]
     },
     {
       icon: Database,
-      title: "Data Management",
+      title: "Databases & Vector Systems",
       skills: [
-        "PostgreSQL (3TB+)",
-        "MongoDB",
-        "Oracle Database",
-        "ETL Processes",
-        "Data Pipelines",
-        "Analytics"
+        "Pinecone, Weaviate, Chroma",
+        "PostgreSQL (pgvector)",
+        "MongoDB, Redis"
       ]
     },
     {
       icon: Cog,
-      title: "Automation & QA",
+      title: "LLMs & AI Frameworks",
       skills: [
-        "Selenium WebDriver",
-        "Robot Framework",
-        "Git Version Control",
-        "MLflow",
-        "Monitoring & Observability",
-        "Test Automation"
+        "OpenAI GPT (3/4), Anthropic Claude, Google Gemini",
+        "Hugging Face Transformers",
+        "Fine-tuning & Custom LLM Integration",
+        "Knowledge Graphs (Neo4j)",
+        "Multimodal AI (Vision, Text, Speech)"
       ]
     },
     {
       icon: Users,
-      title: "Leadership",
+      title: "Leadership & Collaboration",
       skills: [
-        "Agile/Scrum",
-        "Stakeholder Management",
-        "Team Mentoring",
-        "Project Management",
         "Technical Leadership",
+        "Architectural Standards & Code Review",
+        "Team Mentoring & Knowledge Transfer",
+        "Agile/CI-CD",
         "Cross-functional Collaboration"
       ]
     }
@@ -110,7 +102,7 @@ export const Skills = () => {
           ))}
         </div>
         
-        {/* Programming Languages & Frameworks */}
+        {/* Technologies & Frameworks */}
         <div className="mt-16">
           <h3 className="text-2xl font-semibold text-center mb-8 text-cyan-400">
             Technologies & Frameworks
@@ -118,8 +110,12 @@ export const Skills = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {[
-              "Python", "PyTorch", "TensorFlow", "FastAPI", "Django", "React",
-              "Docker", "Kubernetes", "AWS", "GCP", "PostgreSQL", "MongoDB"
+              "Python", "LangChain", "LangGraph", "LlamaIndex",
+              "PyTorch", "TensorFlow", "FastAPI", "Flask",
+              "Docker", "Kubernetes", "AWS", "GCP",
+              "Pinecone", "Weaviate", "Chroma", "PostgreSQL (pgvector)",
+              "MongoDB", "Redis", "Neo4j", "Airflow",
+              "Celery", "MLflow", "Prometheus", "Grafana", "ELK"
             ].map((tech, index) => (
               <div 
                 key={tech}
@@ -135,3 +131,4 @@ export const Skills = () => {
     </div>
   );
 };
+
