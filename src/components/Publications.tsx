@@ -11,27 +11,27 @@ export const Publications = () => {
       title: "DISTIL: Data-Free Inversion of Suspicious Trojan Inputs via Latent Diffusion",
       venue: "ICCV 2025",
       year: "2025",
-      status: "Submitted",
+      status: "Accepted",
       authors: "Hossein Mirzaei, Zeinab Sadat Taghavi, Sepehr Rezaee, Masoud Hadi, Moein Madadi, Mackenzie W Mathis.",
       summary: "Novel approach to knowledge distillation for efficient neural network compression while maintaining performance."
     },
-    {
-      title: "LyAm: Robust Non-Convex Optimization for Stable Learning in Noisy and Anomalous Environments",
-      venue: "ICCV 2025", 
-      year: "2025",
-      status: "Submitted",
-      authors: "Elmira Mirzabeigi, Sepehr Rezaee, Kourosh Parand.",
-      summary: "Theoretical framework combining Lyapunov stability theory with adversarial robustness in machine learning."
-    },
-    {
-      title: "A Contrastive Teacher-Student Framework for Novelty Detection Under Style Shift",
-      venue: "ICCV 2025",
-      year: "2025", 
-      status: "Submitted",
-      authors: "Hossein Mirzaei, Mojtaba Nafez, Moein Madadi, Arad Maleki, Mahdi Hajialilue, Zeinab Sadat Taghavi, Sepehr Rezaee, et al.",
-      summary: "Novel contrastive learning approach to improve model interpretability and feature representation learning.",
-      link: "https://arxiv.org/pdf/2501.17289"
-    },
+    // {
+    //   title: "LyAm: Robust Non-Convex Optimization for Stable Learning in Noisy and Anomalous Environments",
+    //   venue: "ICCV 2025", 
+    //   year: "2025",
+    //   status: "Submitted",
+    //   authors: "Elmira Mirzabeigi, Sepehr Rezaee, Kourosh Parand.",
+    //   summary: "Theoretical framework combining Lyapunov stability theory with adversarial robustness in machine learning."
+    // },
+    // {
+    //   title: "A Contrastive Teacher-Student Framework for Novelty Detection Under Style Shift",
+    //   venue: "ICCV 2025",
+    //   year: "2025", 
+    //   status: "Submitted",
+    //   authors: "Hossein Mirzaei, Mojtaba Nafez, Moein Madadi, Arad Maleki, Mahdi Hajialilue, Zeinab Sadat Taghavi, Sepehr Rezaee, et al.",
+    //   summary: "Novel contrastive learning approach to improve model interpretability and feature representation learning.",
+    //   link: "https://arxiv.org/pdf/2501.17289"
+    // },
     {
       title: "Physics-Informed Lane-Emden Solvers Using Lynx-Net: Implementing Radial Basis Functions in Kolmogorov Representation",
       venue: "Under Review",
