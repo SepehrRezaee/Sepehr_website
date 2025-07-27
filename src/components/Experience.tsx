@@ -9,11 +9,13 @@ export const Experience = () => {
       period: "Aug 2024 – Present",
       location: "Remote",
       achievements: [
-        "Architected and deployed production-ready multi-agent LLM systems (LangChain, custom RAG), driving autonomous recommendation and business decision workflows (85%+ completion rate)",
-        "Developed robust agent-to-agent communication protocols and memory modules for context-aware, goal-driven agents",
-        "Integrated Docker and Kubernetes for scalable, low-latency deployments (sub-100ms API), and implemented advanced monitoring (Prometheus, Grafana)",
-        "Connected agent actions to live business KPIs, building feedback and evaluation loops for agent optimization",
-        "Collaborated on outcome tracking and continuous agent improvement pipelines"
+        "Architected and deployed production-ready multi-agent LLM systems (LangChain, customRAG) driving autonomous recommendation and business-decision workflows with 85%+ completion rates.",
+        "Developed robust agent-to-agent protocols and memory modules for context-aware, goal-driven reasoning and designed scalable back-end services using FastAPI, PostgreSQL and MongoDB.",
+        "Integrated fine-tuned LLMs into customer-facing platforms, reducing user onboarding time by 15% and improving the contextual relevance of chatbot interactions.",
+        "Deployed containerized solutions via Docker and Kubernetes, accelerating deployment cycles by 40% and efficiently managing high-concurrency user traffic.",
+        "Established advanced monitoring and feedback loops using Prometheus, Grafana and the ELK stack, connecting agent actions to live business KPIs and enabling continuous agent evaluation.",
+        "Implemented AWS SageMaker pipelines for efficient model training and inference, reducing operational costs by 20% through spot instances and automated scaling.",
+        "Compliance and multilingual support, Ensured secure, multilingual support and compliance with data-privacy frameworks (e.g. HIPAA/GDPR) across pipelines and dashboards, coordinating with product and compliance teams."
       ]
     },
     {
@@ -33,8 +35,9 @@ export const Experience = () => {
       period: "Mar 2023 – Feb 2024",
       location: "Tehran, Iran",
       achievements: [
-        "Delivered a Django-based agentic recommender platform (LangChain, GCP, Docker) with hybrid search and automated workflow",
-        "Oversaw Agile and CI/CD, ensuring reliability and fast iteration on agent architectures"
+        "Delivered a Django-based agentic recommender platform (LangChain, GCP, Docker) with hybrid search and automated workflow.",
+        "Oversaw Agile/CI-CD, ensuring reliability and fast iteration on agent architectures.",
+        "Multilingual and compliant design, Implemented multilingual UI/UX (Arabic/English) and compliance-driven architecture to meet diverse market and regulatory requirements."
       ]
     },
     {
