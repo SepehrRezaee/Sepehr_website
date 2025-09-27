@@ -4,9 +4,20 @@ import { Calendar, MapPin, TrendingUp } from "lucide-react";
 export const Experience = () => {
   const experiences = [
     {
+      title: "Senior LLM Engineer",
+      company: "AIR Property",
+      period: "Aug 2025 – Sep 2025",
+      location: "Hybrid",
+      achievements: [
+        "Designed and shipped production LLM services (RAG + agents), owning model selection, prompt/agent design, eval harnesses, and fallbacks; improved quality while controlling latency and cost.",
+        "Built clean, modular APIs with test coverage and dashboards for reliability (error budgets, SLOs) and safety/guardrails.",
+        "Drove data curation, vector caching, and inference optimization to stabilize throughput under peak load."
+      ]
+    },
+    {
       title: "AI Engineer, Agentic Systems",
       company: "PropTy Global",
-      period: "Aug 2024 – Present",
+      period: "Aug 2024 – Sep 2025",
       location: "Remote",
       achievements: [
         "Architected and deployed production-ready multi-agent LLM systems (LangChain, customRAG) driving autonomous recommendation and business-decision workflows with 85%+ completion rates.",
