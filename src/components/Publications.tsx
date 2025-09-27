@@ -12,62 +12,55 @@ export const Publications = () => {
       venue: "ICCV 2025",
       year: "2025",
       status: "Accepted",
-      authors: "Hossein Mirzaei, Zeinab Sadat Taghavi, Sepehr Rezaee, Masoud Hadi, Moein Madadi, Mackenzie W Mathis.",
-      summary: "Deep neural networks have demonstrated remarkable success across numerous tasks, yet they remain vulnerable to trojan (backdoor) attacks, raising serious concerns about their safety in real-world mission-critical applications. A common countermeasure is trigger inversion -- reconstructing malicious "shortcut" patterns (triggers) inserted by an adversary during training. Current trigger-inversion methods typically search the full pixel space under specific assumptions but offer no assurances that the estimated trigger is more than an adversarial perturbation that flips the model output. Here, we propose a data-free, zero-shot trigger-inversion strategy that restricts the search space while avoiding strong assumptions on trigger appearance. Specifically, we incorporate a diffusion-based generator guided by the target classifier; through iterative generation, we produce candidate triggers that align with the internal representations the model relies on for malicious behavior. Empirical evaluations, both quantitative and qualitative, show that our approach reconstructs triggers that effectively distinguish clean versus tojaned models. DISTIL surpasses alternative methods by high margins, achieving up to 7.1% higher accuracy on the BackdoorBench dataset and a 9.4% improvement on trojaned object detection model scanning, offering a promising new direction for reliable backdoor defense without reliance on extensive data or strong prior assumptions about triggers.",
-      link: "https://arxiv.org/abs/2507.22813"
+      authors:
+        "Hossein Mirzaei, Zeinab Sadat Taghavi, Sepehr Rezaee, Masoud Hadi, Moein Madadi, Mackenzie W Mathis.",
+      summary: `Deep neural networks have demonstrated remarkable success across numerous tasks, yet they remain vulnerable to trojan (backdoor) attacks, raising serious concerns about their safety in real-world mission-critical applications. A common countermeasure is trigger inversion — reconstructing malicious "shortcut" patterns (triggers) inserted by an adversary during training. Current trigger-inversion methods typically search the full pixel space under specific assumptions but offer no assurances that the estimated trigger is more than an adversarial perturbation that flips the model output. Here, we propose a data-free, zero-shot trigger-inversion strategy that restricts the search space while avoiding strong assumptions on trigger appearance. Specifically, we incorporate a diffusion-based generator guided by the target classifier; through iterative generation, we produce candidate triggers that align with the internal representations the model relies on for malicious behavior. Empirical evaluations, both quantitative and qualitative, show that our approach reconstructs triggers that effectively distinguish clean versus trojaned models. DISTIL surpasses alternative methods by high margins, achieving up to 7.1% higher accuracy on the BackdoorBench dataset and a 9.4% improvement on trojaned object detection model scanning, offering a promising new direction for reliable backdoor defense without reliance on extensive data or strong prior assumptions about triggers.`,
+      link: "https://arxiv.org/abs/2507.22813",
     },
-    // {
-    //   title: "LyAm: Robust Non-Convex Optimization for Stable Learning in Noisy and Anomalous Environments",
-    //   venue: "ICCV 2025", 
-    //   year: "2025",
-    //   status: "Submitted",
-    //   authors: "Elmira Mirzabeigi, Sepehr Rezaee, Kourosh Parand.",
-    //   summary: "Theoretical framework combining Lyapunov stability theory with adversarial robustness in machine learning."
-    // },
-    // {
-    //   title: "A Contrastive Teacher-Student Framework for Novelty Detection Under Style Shift",
-    //   venue: "ICCV 2025",
-    //   year: "2025", 
-    //   status: "Submitted",
-    //   authors: "Hossein Mirzaei, Mojtaba Nafez, Moein Madadi, Arad Maleki, Mahdi Hajialilue, Zeinab Sadat Taghavi, Sepehr Rezaee, et al.",
-    //   summary: "Novel contrastive learning approach to improve model interpretability and feature representation learning.",
-    //   link: "https://arxiv.org/pdf/2501.17289"
-    // },
     {
-      title: "Physics-Informed Lane-Emden Solvers Using Lynx-Net: Implementing Radial Basis Functions in Kolmogorov Representation",
+      title:
+        "Physics-Informed Lane-Emden Solvers Using Lynx-Net: Implementing Radial Basis Functions in Kolmogorov Representation",
       venue: "Astronomy and Computing (Elsevier)",
       year: "2025",
       status: "Accepted",
-      authors: "Elmira Mirzabeigi, Maryam Babaei*, Amir Hossein Karami*, Sepehr Rezaee*, Rezvan Salehi, Kourosh Parand",
-      summary: "Application of physics-informed neural networks to model complex disease progression patterns with enhanced accuracy.",
-      link: "https://www.sciencedirect.com/science/article/pii/S2213133725000708"
+      authors:
+        "Elmira Mirzabeigi, Maryam Babaei*, Amir Hossein Karami*, Sepehr Rezaee*, Rezvan Salehi, Kourosh Parand",
+      summary:
+        "Application of physics-informed neural networks to model complex disease progression patterns with enhanced accuracy.",
+      link: "https://www.sciencedirect.com/science/article/pii/S2213133725000708",
     },
     {
       title: "Scanning Trojaned Models Using Out-of-Distribution Samples",
       venue: "NeurIPS 2024",
       year: "2024",
       status: "Accepted",
-      authors: "Hossein Mirzaei, Ali Ansari*, Bahar Dibaei Nia*, Mojtaba Nafez^ , Moein Madadi^ , Sepehr Rezaee^. et. al.",
-      summary: "Comprehensive approach to detect and mitigate trojaned models in federated and distributed learning environments.",
-      link: "https://proceedings.neurips.cc/paper_files/paper/2024/file/ef52fd1e24634cb8f7003ebbfb3644d9-Paper-Conference.pdf"
+      authors:
+        "Hossein Mirzaei, Ali Ansari*, Bahar Dibaei Nia*, Mojtaba Nafez^ , Moein Madadi^ , Sepehr Rezaee^. et. al.",
+      summary:
+        "Comprehensive approach to detect and mitigate trojaned models in federated and distributed learning environments.",
+      link: "https://proceedings.neurips.cc/paper_files/paper/2024/file/ef52fd1e24634cb8f7003ebbfb3644d9-Paper-Conference.pdf",
     },
     {
-      title: "Comparison of Pre-Training and Classification Models for Early Detection of Alzheimer’s Disease Using Magnetic Resonance Imaging",
+      title:
+        "Comparison of Pre-Training and Classification Models for Early Detection of Alzheimer’s Disease Using Magnetic Resonance Imaging",
       venue: "I4C 2023",
       year: "2023",
       status: "Published",
       authors: "AH Karami, S Rezaee, E Mirzabeigi, K Parand",
-      summary: "Multimodal AI approach combining neuroimaging and cognitive assessments for early Alzheimer's detection.",
-      link: "https://i4c.iust.ac.ir/UPL/Paper2023/accpapers/i4c2023-1056.pdf"
+      summary:
+        "Multimodal AI approach combining neuroimaging and cognitive assessments for early Alzheimer's detection.",
+      link: "https://i4c.iust.ac.ir/UPL/Paper2023/accpapers/i4c2023-1056.pdf",
     },
     {
-      title: "Hierarchical Clustering Algorithms, Chapter of Unsupervised Algorithms: Clustering (with Implementation) Aarvan Publications",
+      title:
+        "Hierarchical Clustering Algorithms, Chapter of Unsupervised Algorithms: Clustering (with Implementation) Aarvan Publications",
       venue: "Book Chapter",
       year: "2022",
       status: "Published",
       authors: "Sepehr Rezaee, et al.",
-      summary: "Comprehensive review and novel approaches to clustering algorithms for handling large-scale datasets."
-    }
+      summary:
+        "Comprehensive review and novel approaches to clustering algorithms for handling large-scale datasets.",
+    },
   ];
 
   const statusColors = {
