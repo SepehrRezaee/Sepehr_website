@@ -13,7 +13,8 @@ export const Publications = () => {
       year: "2025",
       status: "Accepted",
       authors: "Hossein Mirzaei, Zeinab Sadat Taghavi, Sepehr Rezaee, Masoud Hadi, Moein Madadi, Mackenzie W Mathis.",
-      summary: "Deep neural networks have demonstrated remarkable success across numerous tasks, yet they remain vulnerable to trojan (backdoor) attacks, raising serious concerns about their safety in real-world mission-critical applications. A common countermeasure is trigger inversion -- reconstructing malicious "shortcut" patterns (triggers) inserted by an adversary during training. Current trigger-inversion methods typically search the full pixel space under specific assumptions but offer no assurances that the estimated trigger is more than an adversarial perturbation that flips the model output. Here, we propose a data-free, zero-shot trigger-inversion strategy that restricts the search space while avoiding strong assumptions on trigger appearance. Specifically, we incorporate a diffusion-based generator guided by the target classifier; through iterative generation, we produce candidate triggers that align with the internal representations the model relies on for malicious behavior. Empirical evaluations, both quantitative and qualitative, show that our approach reconstructs triggers that effectively distinguish clean versus tojaned models. DISTIL surpasses alternative methods by high margins, achieving up to 7.1% higher accuracy on the BackdoorBench dataset and a 9.4% improvement on trojaned object detection model scanning, offering a promising new direction for reliable backdoor defense without reliance on extensive data or strong prior assumptions about triggers."
+      summary: "Deep neural networks have demonstrated remarkable success across numerous tasks, yet they remain vulnerable to trojan (backdoor) attacks, raising serious concerns about their safety in real-world mission-critical applications. A common countermeasure is trigger inversion -- reconstructing malicious "shortcut" patterns (triggers) inserted by an adversary during training. Current trigger-inversion methods typically search the full pixel space under specific assumptions but offer no assurances that the estimated trigger is more than an adversarial perturbation that flips the model output. Here, we propose a data-free, zero-shot trigger-inversion strategy that restricts the search space while avoiding strong assumptions on trigger appearance. Specifically, we incorporate a diffusion-based generator guided by the target classifier; through iterative generation, we produce candidate triggers that align with the internal representations the model relies on for malicious behavior. Empirical evaluations, both quantitative and qualitative, show that our approach reconstructs triggers that effectively distinguish clean versus tojaned models. DISTIL surpasses alternative methods by high margins, achieving up to 7.1% higher accuracy on the BackdoorBench dataset and a 9.4% improvement on trojaned object detection model scanning, offering a promising new direction for reliable backdoor defense without reliance on extensive data or strong prior assumptions about triggers.",
+      link: "https://arxiv.org/abs/2507.22813"
     },
     // {
     //   title: "LyAm: Robust Non-Convex Optimization for Stable Learning in Noisy and Anomalous Environments",
@@ -34,11 +35,12 @@ export const Publications = () => {
     // },
     {
       title: "Physics-Informed Lane-Emden Solvers Using Lynx-Net: Implementing Radial Basis Functions in Kolmogorov Representation",
-      venue: "Under Review",
-      year: "2024",
-      status: "Under Review",
+      venue: "Astronomy and Computing (Elsevier)",
+      year: "2025",
+      status: "Accepted",
       authors: "Elmira Mirzabeigi, Maryam Babaei*, Amir Hossein Karami*, Sepehr Rezaee*, Rezvan Salehi, Kourosh Parand",
-      summary: "Application of physics-informed neural networks to model complex disease progression patterns with enhanced accuracy."
+      summary: "Application of physics-informed neural networks to model complex disease progression patterns with enhanced accuracy.",
+      link: "https://www.sciencedirect.com/science/article/pii/S2213133725000708"
     },
     {
       title: "Scanning Trojaned Models Using Out-of-Distribution Samples",
