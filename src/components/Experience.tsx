@@ -6,7 +6,7 @@ export const Experience = () => {
     {
       title: "Senior LLM Engineer",
       company: "AIR Property",
-      period: "Aug 2025 – Sep 2025",
+      period: "Aug 2025 – Present",
       location: "Hybrid",
       achievements: [
         "Designed and shipped production LLM services (RAG + agents), owning model selection, prompt/agent design, eval harnesses, and fallbacks; improved quality while controlling latency and cost.",
@@ -38,6 +38,17 @@ export const Experience = () => {
         "Led the full-stack delivery of LLM-powered agents for SaaS, healthcare, and education, integrating vision, text, and knowledge graph data",
         "Implemented multi-agent orchestration (LangChain, Celery) and business process automation pipelines",
         "Provided technical leadership: code reviews, design standards, agent evaluation, documentation, and knowledge transfer"
+      ]
+    },
+    {
+      title: "Research Intern, Safe & Generative AI",
+      company: "Mathis Lab, EPFL University",
+      period: "May 2025 – Sep 2025",
+      location: "Switzerland",
+      achievements: [
+        "Co-authored ICCV 2025 (accepted) paper on DISTIL: data-free diffusion-based trigger inversion for Trojaned models; new SOTA on BackdoorBench (+7.1% acc) and object-detection scanning (+9.4%).",
+        "Built latent-diffusion pipelines with classifier-guided feedback to expose adversarial vulnerabilities for safer AI.",
+        "Developed zero-shot, data-free defenses and ran large-scale benchmarks; published best practices for robust evaluation."
       ]
     },
     {
